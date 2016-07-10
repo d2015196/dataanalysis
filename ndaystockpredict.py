@@ -19,7 +19,7 @@ conn.row_factory = lambda cursor, row: row[0]
 c = conn.cursor()
 
 
-#determine end date based on the time frame, n 
+#determine end date based on the time frame, "n"
 
 date_info = a.split("v")
 end_datefile = date_info[2]
